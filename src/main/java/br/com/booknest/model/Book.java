@@ -2,38 +2,62 @@ package br.com.booknest.model;
 
 public class Book {
 
-    String corCapaLivro = "Red";
-    String tituloCapa = "O Principe";
-    String authorLivro = "Maquiavel";
-    int numeroPagina = 92;
-    int lancamentoAno = 1485;
-    String editoraLivro = "Editora123";
+    String corCapaLivro = "Amarelo";
+    String tituloCapaLivro = "O Príncipe";
+    String authorLivro = "Nicolau Maquiavel";
+    int paginasLivro = 160;
+    int lancamentoLivro = 2018;
+    String editoraLivro = "Senado Federal";
     String idiomaLivro = "Português";
-    double valorLivro = 40;
-
-    public Book(String corCapaLivro, String tituloCapa, String authorLivro, int numeroPagina, int lancamentoAno, String editoraLivro, String idiomaLivro, int valorLivro) {
-
-        this.corCapaLivro = corCapaLivro;
-        this.authorLivro = authorLivro;
-        this.editoraLivro = editoraLivro;
-        this.tituloCapa = tituloCapa;
-        this.numeroPagina = numeroPagina;
-        this.lancamentoAno = lancamentoAno;
-        this.valorLivro = valorLivro;
-        this.idiomaLivro = idiomaLivro;
-
-
-    }
+    double valorLivro = 8.00;
+    boolean abertoLivro = false;
+    int modelLivro = 248;
 
     public Book() {
 
     }
 
-    public void lerLivro() {
+    public void abertoLivro() {
+        System.out.println(abertoLivro);
 
-        System.out.println("Lendo Livro...");
+    }
+    public void idiomaLivro() {
+        System.out.println(idiomaLivro);
     }
 
+    public void tituloCapaLivro() {
+        System.out.println(tituloCapaLivro);
+    }
+
+
+    public void valorLivro() {
+        System.out.println(valorLivro);
+
+    }
+
+    public void corCapaLivro() {
+        System.out.println(corCapaLivro);
+    }
+
+    public void modelLivro() {
+        System.out.println(modelLivro);
+    }
+
+    public void lancamentoLivro() {
+        System.out.println(lancamentoLivro);
+    }
+
+    public void editoraLivro() {
+        System.out.println(editoraLivro);
+    }
+
+    public void authorLivro() {
+        System.out.println(authorLivro);
+    }
+
+    public void paginasLivro() {
+        System.out.println(paginasLivro);
+    }
 
     public String getCorCapaLivro() {
         return corCapaLivro;
@@ -43,12 +67,12 @@ public class Book {
         this.corCapaLivro = corCapaLivro;
     }
 
-    public String getTituloCapa() {
-        return tituloCapa;
+    public String getTituloCapaLivro() {
+        return tituloCapaLivro;
     }
 
-    public void setTituloCapa(String tituloCapa) {
-        this.tituloCapa = tituloCapa;
+    public void setTituloCapaLivro(String tituloCapaLivro) {
+        this.tituloCapaLivro = tituloCapaLivro;
     }
 
     public String getAuthorLivro() {
@@ -59,20 +83,20 @@ public class Book {
         this.authorLivro = authorLivro;
     }
 
-    public int getNumeroPagina() {
-        return numeroPagina;
+    public int getPaginasLivro() {
+        return paginasLivro;
     }
 
-    public void setNumeroPagina(int numeroPagina) {
-        this.numeroPagina = numeroPagina;
+    public void setPaginasLivro(int paginasLivro) {
+        this.paginasLivro = paginasLivro;
     }
 
-    public int getLancamentoAno() {
-        return lancamentoAno;
+    public int getLancamentoLivro() {
+        return lancamentoLivro;
     }
 
-    public void setLancamentoAno(int lancamentoAno) {
-        this.lancamentoAno = lancamentoAno;
+    public void setLancamentoLivro(int lancamentoLivro) {
+        this.lancamentoLivro = lancamentoLivro;
     }
 
     public String getEditoraLivro() {
@@ -98,4 +122,35 @@ public class Book {
     public void setValorLivro(double valorLivro) {
         this.valorLivro = valorLivro;
     }
+
+    public boolean isAbertoLivro() {
+        return abertoLivro;
+    }
+
+    public void setAbertoLivro(boolean abertoLivro) {
+        this.abertoLivro = abertoLivro;
+    }
+
+    public int getModelLivro() {
+        return modelLivro;
+    }
+
+    public void setModelLivro(int modelLivro) {
+        this.modelLivro = modelLivro;
+    }
+
+    public Book(String corCapaLivro, String tituloCapa, String authorLivro, int numeroPagina, int lancamentoAno, String editoraLivro, String idiomaLivro, int valorLivro, boolean abertoLivro) {
+
+        this.corCapaLivro = corCapaLivro;
+        this.authorLivro = authorLivro;
+        this.editoraLivro = editoraLivro;
+        this.tituloCapaLivro = tituloCapa;
+        this.paginasLivro = numeroPagina;
+        this.lancamentoLivro = lancamentoAno;
+        this.valorLivro = valorLivro;
+        this.idiomaLivro = idiomaLivro;
+        this.abertoLivro = abertoLivro;
+
+    }
+
 }

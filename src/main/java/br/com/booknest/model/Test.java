@@ -7,7 +7,18 @@ public class Test {
 
         Book book = new Book();
 
-        book.lerLivro();
+        book.paginasLivro();
+        book.abertoLivro();
+        book.paginasLivro();
+        book.authorLivro();
+        book.idiomaLivro();
+        book.valorLivro();
+        book.tituloCapaLivro();
+        book.editoraLivro();
+        book.lancamentoLivro();
+        book.modelLivro();
+        book.corCapaLivro();
+
     }
 
 
