@@ -16,7 +16,7 @@ public class Test {
         book.tituloCapaLivro();
         book.editoraLivro();
         book.lancamentoLivro();
-        book.modelLivro();
+        book.edicaoLivro();
         book.corCapaLivro();
 
     }

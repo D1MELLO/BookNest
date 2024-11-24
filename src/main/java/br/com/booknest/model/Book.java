@@ -11,7 +11,7 @@ public class Book {
     String idiomaLivro = "Português";
     double valorLivro = 8.00;
     boolean abertoLivro = false;
-    int modelLivro = 248;
+    int edicaoLivro = 248;
 
     public Book() {
 
@@ -39,8 +39,8 @@ public class Book {
         System.out.println(corCapaLivro);
     }
 
-    public void modelLivro() {
-        System.out.println(modelLivro);
+    public void edicaoLivro() {
+        System.out.println(edicaoLivro);
     }
 
     public void lancamentoLivro() {
@@ -131,12 +131,12 @@ public class Book {
         this.abertoLivro = abertoLivro;
     }
 
-    public int getModelLivro() {
-        return modelLivro;
+    public int getEdicaoLivro() {
+        return edicaoLivro;
     }
 
-    public void setModelLivro(int modelLivro) {
-        this.modelLivro = modelLivro;
+    public void setEdicaoLivro(int edicaoLivro) {
+        this.edicaoLivro = edicaoLivro;
     }
 
     public Book(String corCapaLivro, String tituloCapa, String authorLivro, int numeroPagina, int lancamentoAno, String editoraLivro, String idiomaLivro, int valorLivro, boolean abertoLivro) {
