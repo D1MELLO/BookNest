@@ -17,45 +17,45 @@ public class Book {
 
     }
 
-    public void abertoLivro() {
+    public void abrirLivro() {
         System.out.println(abertoLivro);
 
     }
-    public void idiomaLivro() {
+    public void veridiomaLivro() {
         System.out.println(idiomaLivro);
     }
 
-    public void tituloCapaLivro() {
+    public void vertituloCapaLivro() {
         System.out.println(tituloCapaLivro);
     }
 
 
-    public void valorLivro() {
+    public void verValorLivro() {
         System.out.println(valorLivro);
 
     }
 
-    public void corCapaLivro() {
+    public void verCorCapaLivro() {
         System.out.println(corCapaLivro);
     }
 
-    public void edicaoLivro() {
+    public void verEdicaoLivro() {
         System.out.println(edicaoLivro);
     }
 
-    public void lancamentoLivro() {
+    public void verLancamentoLivro() {
         System.out.println(lancamentoLivro);
     }
 
-    public void editoraLivro() {
+    public void verEditoraLivro() {
         System.out.println(editoraLivro);
     }
 
-    public void authorLivro() {
+    public void veroAutorLivro() {
         System.out.println(authorLivro);
     }
 
-    public void paginasLivro() {
+    public void verPaginasLivro() {
         System.out.println(paginasLivro);
     }
 

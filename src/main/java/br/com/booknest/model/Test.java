@@ -7,17 +7,17 @@ public class Test {
 
         Book book = new Book();
 
-        book.paginasLivro();
-        book.abertoLivro();
-        book.paginasLivro();
-        book.authorLivro();
-        book.idiomaLivro();
-        book.valorLivro();
-        book.tituloCapaLivro();
-        book.editoraLivro();
-        book.lancamentoLivro();
-        book.edicaoLivro();
-        book.corCapaLivro();
+        book.verPaginasLivro();
+        book.abrirLivro();
+        book.verPaginasLivro();
+        book.veroAutorLivro();
+        book.veridiomaLivro();
+        book.verValorLivro();
+        book.vertituloCapaLivro();
+        book.verEditoraLivro();
+        book.verLancamentoLivro();
+        book.verEdicaoLivro();
+        book.verCorCapaLivro();
 
     }
 
